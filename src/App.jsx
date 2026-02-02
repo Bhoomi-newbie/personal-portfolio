@@ -50,7 +50,7 @@ const App = () => {
               </div>
             </div>
 
-            <div
+            {/* <div
               className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}
             >
               <div className={`${styles.boxWidth}`}>
@@ -69,7 +69,7 @@ const App = () => {
                 <ExtraCurricular />
               </div>
             </div>
-            <Footer />
+            <Footer /> */}
           </motion.section>
         )}
       </AnimatePresence>
