@@ -38,11 +38,11 @@ const App = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, ease: "easeOut" }}
           >
-            <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+            {/* <div className={`${styles.paddingX} ${styles.flexCenter}`}>
               <div className={`${styles.boxWidth}`}>
                 <Navbar />
               </div>
-            </div>
+            </div> */}
 
             <div className={`bg-primary ${styles.flexStart} pt-[80px]`}>
               <div className={`${styles.boxWidth}`}>
